@@ -13,8 +13,12 @@
 - 逻辑回归（评分卡标准模型）
 
 ## 项目结构
-├── credit_scorecard.py # 主程序：数据处理、模型训练、评分卡生成├── README.md # 项目说明├── result/ # 输出结果│ └── roc_curve.png # 模型 ROC 曲线
-plaintext
+```text
+├── credit_scorecard.py  # 主程序：数据处理、模型训练、评分卡生成
+├── README.md             # 项目说明
+└── result/
+    └── roc_curve.png     # 模型ROC曲线
+```
 
 ## 模型效果
 - AUC: 0.77
@@ -24,5 +28,6 @@ plaintext
 ## 运行方式
 ```bash
 python credit_scorecard.py
-模型评估图
+```
+![ROC 曲线](https://github.com/yexiaozhou0520-cmd/credit-scorecard-model/raw/main/result/roc_curve.png)
 
