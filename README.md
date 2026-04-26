@@ -44,4 +44,3 @@ python credit_scorecard.py
 - 该模型可作为风控体系的「初筛模型」，在贷前环节快速识别高风险客户，降低人工审核成本。
 - 后续可结合更多维度的用户行为数据，或引入 XGBoost 等非线性模型，进一步提升模型的区分度与稳定性。
 
-docs: add business interpretation and model insights
